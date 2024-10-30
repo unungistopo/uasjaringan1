@@ -30,3 +30,13 @@ Pada file `Readme.md` ini *submission* **harus** memiliki bagian/struktur sepert
 1. `file1.pdf` - *penjelasan, overview file1.pdf*
 2. `file2.pdf` - *penjelasan, overview file2.pdf*
 3. `file3.jpg` - *penjelasan, overview gambar file3.jpg*
+
+# Informasi anggota kelompok*
+> Sesuaikan dengan penugasan, jika berkelompok berikan detil anggota kelompok
+
+Nama kelompok: Kelompok 1
+
+**Anggota**
+1. Nama mahasiswa 1 (NIM 1)
+2. Nama mahasiswa 2 (NIM 2)
+3. Nama mahasiswa 3 (NIM 3)
