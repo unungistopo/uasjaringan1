@@ -27,5 +27,5 @@ Client -->|  Broker  | ----> (Load-Balancing) --> |  Worker   |
 # Informasi anggota kelompok*
 > Tugas ini adalah tugas mandiri, dikerjakan sendiri tanpa kelompok
 
-Nama mahasiswa: Unung Istopo Hartanto
-NIM: 24051905001
+- Nama mahasiswa: Unung Istopo Hartanto
+- NIM: 24051905001
