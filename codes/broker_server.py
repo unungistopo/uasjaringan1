@@ -27,7 +27,7 @@ def start_broker_server(port, method):
             worker_host, worker_port = worker_servers[min_load_index]
             worker_load[min_load_index] += 1  # Update load counter
         elif method == "2":
-            # Round-robin (Pendekatan 2)
+            # Berurutan sesuai server-id (Pendekatan 2)
             worker_host, worker_port = worker_servers[current_worker]
             current_worker = (current_worker + 1) % worker_count
 
