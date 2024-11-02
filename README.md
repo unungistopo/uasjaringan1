@@ -2,24 +2,9 @@
 
 ## Deskripsi Repositori
 
-Repositori ini merupakan tugas mandiri dalam mata kuliah **Komputasi Jaringan**, dengan fokus pada implementasi sederhana dari konsep load balancing menggunakan Python socket programming. Proyek ini bertujuan untuk memahami dan menerapkan teknik load balancing dalam mendistribusikan request client ke beberapa server worker melalui server broker.
+> Repositori ini merupakan tugas mandiri dalam mata kuliah **Komputasi Jaringan**, dengan fokus pada implementasi sederhana dari konsep load balancing menggunakan Python socket programming. Proyek ini bertujuan untuk memahami dan menerapkan teknik load balancing dalam mendistribusikan request client ke beberapa server worker melalui server broker.
 
-### Struktur Repositori
-
-- `codes/`
-  - Berisi script utama untuk menjalankan simulasi load balancing.
-- `documentation/`
-  - Menyimpan file dokumentasi, termasuk panduan pengguna, diagram, dan flowchart.
-
----
-
-### Deskripsi Singkat
-
-Repositori ini ditujukan untuk mata kuliah **Komputasi Jaringan**. Proyek ini mensimulasikan load balancing sederhana yang dapat mendistribusikan request secara merata dan berurutan ke beberapa worker server menggunakan pendekatan counter dan round-robin. Proyek ini akan menyelesaikan masalah distribusi beban kerja pada server sehingga setiap server worker dapat menangani jumlah request yang merata dan berimbang.
-
----
-
-## Alur Input-Process-Output
+> Alur Input-Process-Output
 
 ```plaintext
           +----------+         +---------+        +-----------+
@@ -27,3 +12,20 @@ Client -->|  Broker  | ----> (Load-Balancing) --> |  Worker   |
  Request  |  Server  |         |   Logic |        | Servers   |
           +----------+         +---------+        +-----------+
                  Input             Process              Output
+```
+## Direktori `codes/`:
+> Berisi script utama untuk menjalankan simulasi load balancing.
+1. `client.py` - *Script ini digunakan untuk mengirim request ke Broker Server*
+2. `broker_server.py` - *Script utama untuk Broker Server. Broker bertanggung jawab untuk menerima request dari Client dan mendistribusikannya ke Worker Servers.*
+3. `worker.py` - *Script ini menjalankan Worker Server yang bertugas menerima request dari Broker dan memprosesnya.*
+
+## Direktori `documentation/`:
+> Menyimpan file dokumentasi, termasuk panduan pengguna, diagram, dan flowchart.
+1. `panduan.pdf` - *File dokumentasi ini memuat panduan pengguna, diagram dan flowchart*
+---
+
+# Informasi anggota kelompok*
+> Tugas ini adalah tugas mandiri, dikerjakan sendiri tanpa kelompok
+
+Nama mahasiswa: Unung Istopo Hartanto
+NIM: 24051905001
