@@ -1,4 +1,4 @@
-import socket
+nimport socket
 import sys
 import threading
 
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Usage: python broker_server.py <broker_port> <method>")
         print("Method 1: Equal load distribution")
-        print("Method 2: Round-robin based on server ID")
+        print("Method 2: Sequential based on server ID")
         sys.exit(1)
 
     broker_port = int(sys.argv[1])
