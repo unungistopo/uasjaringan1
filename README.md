@@ -24,7 +24,7 @@ Client -->|  Broker  | ----> (Load-Balancing) --> |  Worker   |
 1. `panduan.pdf` - *File dokumentasi ini memuat panduan pengguna, diagram dan flowchart*
 ---
 
-# Informasi anggota kelompok
+## Informasi anggota kelompok
 > Tugas ini adalah tugas mandiri, dikerjakan sendiri tanpa kelompok
 
 - Nama mahasiswa: Unung Istopo Hartanto
