@@ -1,4 +1,3 @@
-# worker_server.py
 import socket
 
 def start_worker_server(port):
