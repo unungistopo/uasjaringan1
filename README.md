@@ -13,18 +13,6 @@
 > System Architecture Overview
 ![image](https://github.com/user-attachments/assets/4d2d6b59-9acb-4406-9543-c054e900ae58)
 
-
-## Direktori `codes/`:
-> Berisi script utama untuk menjalankan simulasi load balancing.
-1. `client.py` - *Script ini digunakan untuk mengirim request ke Broker Server*
-2. `broker_server.py` - *Script utama untuk Broker Server. Broker bertanggung jawab untuk menerima request dari Client dan mendistribusikannya ke Worker Servers.*
-3. `worker.py` - *Script ini menjalankan Worker Server yang bertugas menerima request dari Broker dan memprosesnya.*
-
-## Direktori `documentation/`:
-> Menyimpan file dokumentasi, termasuk panduan pengguna, diagram, dan flowchart.
-1. `panduan.pdf` - *File dokumentasi ini memuat panduan pengguna, diagram dan flowchart*
----
-
 ## Informasi anggota kelompok
 > Nama Mahasiswa - NIM
 - Unung Istopo Hartanto - 24051905001
