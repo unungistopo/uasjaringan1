@@ -4,15 +4,10 @@
 
 > Repositori ini merupakan UAS dalam mata kuliah **Komputasi Jaringan**, dengan fokus pada implementasi sederhana dari konsep komunikasi dan koordinasi jaringan menggunakan bahasa pemrograman Python, celery Worker, Redis broker dan Postman FastAPI.
 
-> Alur Input-Process-Output
+> Use Case Diagram
 
-```plaintext
-          +----------+         +---------+        +-----------+
-Client -->|  Broker  | ----> (Load-Balancing) --> |  Worker   |
- Request  |  Server  |         |   Logic |        | Servers   |
-          +----------+         +---------+        +-----------+
-                 Input             Process              Output
-```
+![image](https://github.com/user-attachments/assets/d116fab3-9212-4094-aef4-4040640bbc6d)
+
 ## Direktori `codes/`:
 > Berisi script utama untuk menjalankan simulasi load balancing.
 1. `client.py` - *Script ini digunakan untuk mengirim request ke Broker Server*
