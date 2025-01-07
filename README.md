@@ -1,8 +1,8 @@
-# Tugas Mandiri - Load Balancing dalam Komputasi Jaringan
+# UAS - Komunikasi dan Koordinasi Jaringan
 
 ## Deskripsi Repositori
 
-> Repositori ini merupakan tugas mandiri dalam mata kuliah **Komputasi Jaringan**, dengan fokus pada implementasi sederhana dari konsep load balancing menggunakan Python socket programming. Proyek ini bertujuan untuk memahami dan menerapkan teknik load balancing dalam mendistribusikan request client ke beberapa server worker melalui server broker.
+> Repositori ini merupakan UAS dalam mata kuliah **Komputasi Jaringan**, dengan fokus pada implementasi sederhana dari konsep komunikasi dan koordinasi jaringan menggunakan bahasa pemrograman Python, celery Worker, Redis broker dan Postman FastAPI.
 
 > Alur Input-Process-Output
 
@@ -25,7 +25,6 @@ Client -->|  Broker  | ----> (Load-Balancing) --> |  Worker   |
 ---
 
 ## Informasi anggota kelompok
-> Tugas ini adalah tugas mandiri, dikerjakan sendiri tanpa kelompok
-
-- Nama mahasiswa: Unung Istopo Hartanto
-- NIM: 24051905001
+> Nama Mahasiswa - NIM
+- Unung Istopo Hartanto - 24051905001
+- Suwarno Arieska - 24051905003
